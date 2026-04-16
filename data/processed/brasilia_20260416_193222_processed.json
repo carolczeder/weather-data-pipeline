@@ -1,0 +1,13 @@
+{
+    "cidade": "Brasília",
+    "pais": "BR",
+    "temperatura": 20.5,
+    "sensacao_termica": 20.51,
+    "temperatura_min": 20.5,
+    "temperatura_max": 20.5,
+    "umidade": 73,
+    "pressao": 1015,
+    "velocidade_vento": 1.38,
+    "descricao": "nublado",
+    "data_hora": "2026-04-16 19:44:30"
+}
