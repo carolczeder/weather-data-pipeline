@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": -48.2772,
+        "lat": -18.9186
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "nublado",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 24.62,
+        "feels_like": 24.73,
+        "temp_min": 24.62,
+        "temp_max": 24.62,
+        "pressure": 1012,
+        "humidity": 61,
+        "sea_level": 1012,
+        "grnd_level": 917
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.9,
+        "deg": 115,
+        "gust": 2.16
+    },
+    "clouds": {
+        "all": 64
+    },
+    "dt": 1776378627,
+    "sys": {
+        "country": "BR",
+        "sunrise": 1776331391,
+        "sunset": 1776373332
+    },
+    "timezone": -10800,
+    "id": 3445831,
+    "name": "Uberlândia",
+    "cod": 200
+}
