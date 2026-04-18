@@ -1,0 +1,13 @@
+{
+    "cidade": "Brasília",
+    "pais": "BR",
+    "temperatura": 24.08,
+    "sensacao_termica": 24.19,
+    "temperatura_min": 24.08,
+    "temperatura_max": 24.08,
+    "umidade": 63,
+    "pressao": 1011,
+    "velocidade_vento": 1.64,
+    "descricao": "nublado",
+    "data_hora": "2026-04-18 20:03:24"
+}
