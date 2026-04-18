@@ -210,3 +210,6 @@ __marimo__/
 .env
 .env.dev
 .env.prod
+
+# GCP Credentials
+docker/gcp-credentials.json

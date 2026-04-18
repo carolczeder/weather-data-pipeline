@@ -1,15 +1,8 @@
 import logging
+import subprocess
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-import sys
-import os
-
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-
-from extract.weather_extract import main as extract_main
-from transform.weather_transform import processar_arquivos as transform_main
-from load.weather_load import carregar_dados as load_main
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -26,28 +19,40 @@ default_args = {
 def extract_task():
     logger.info("Iniciando extração de dados...")
     try:
-        extract_main()
+        result = subprocess.run(
+            ['python', '/opt/airflow/extract/weather_extract.py'],
+            capture_output=True, text=True, check=True
+        )
+        logger.info(result.stdout)
         logger.info("Extração concluída com sucesso!")
-    except Exception as e:
-        logger.error(f"Erro na extração: {e}")
+    except subprocess.CalledProcessError as e:
+        logger.error(f"Erro na extração: {e.stderr}")
         raise
 
 def transform_task():
     logger.info("Iniciando transformação de dados...")
     try:
-        transform_main()
+        result = subprocess.run(
+            ['python', '/opt/airflow/transform/weather_transform.py'],
+            capture_output=True, text=True, check=True
+        )
+        logger.info(result.stdout)
         logger.info("Transformação concluída com sucesso!")
-    except Exception as e:
-        logger.error(f"Erro na transformação: {e}")
+    except subprocess.CalledProcessError as e:
+        logger.error(f"Erro na transformação: {e.stderr}")
         raise
 
 def load_task():
     logger.info("Iniciando carga de dados...")
     try:
-        load_main()
+        result = subprocess.run(
+            ['python', '/opt/airflow/load/weather_load.py'],
+            capture_output=True, text=True, check=True
+        )
+        logger.info(result.stdout)
         logger.info("Carga concluída com sucesso!")
-    except Exception as e:
-        logger.error(f"Erro na carga: {e}")
+    except subprocess.CalledProcessError as e:
+        logger.error(f"Erro na carga: {e.stderr}")
         raise
 
 with DAG(
