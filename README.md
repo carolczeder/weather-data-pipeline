@@ -2,7 +2,7 @@
 
 > Pipeline de dados completo para coleta, transformação e visualização de dados meteorológicos de cidades brasileiras.
 
-<img width="800" height="500" alt="bf605a56-9c64-4b13-90a2-90d024a6707f" src="https://github.com/user-attachments/assets/a3e51a5d-9336-4c9a-9c50-3a27d65f0c11" />
+<img width="600" height="400" alt="bf605a56-9c64-4b13-90a2-90d024a6707f" src="https://github.com/user-attachments/assets/a3e51a5d-9336-4c9a-9c50-3a27d65f0c11" />
 
 ---
 
