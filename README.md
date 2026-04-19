@@ -108,65 +108,7 @@ PostgreSQL (dev) / BigQuery (prod)
 Looker Studio Dashboard
 ```
 
-O Airflow agenda e orquestra todo esse fluxo diariamente às 00:00 UTC.
-
----
-
-## 🚀 Como Rodar o Projeto
-
-### Pré-requisitos
-
-- Docker Desktop
-- Python 3.14+
-- Conta no GCP com BigQuery habilitado
-- API Key do OpenWeatherMap
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/carolczeder/weather-data-pipeline.git
-cd weather-data-pipeline
-```
-
-### 2. Configure as variáveis de ambiente
-
-```bash
-# .env.dev
-OPENWEATHER_API_KEY=sua_api_key
-POSTGRES_USER=airflow
-POSTGRES_PASSWORD=airflow
-POSTGRES_DB=airflow
-
-# .env.prod
-ENV=prod
-OPENWEATHER_API_KEY=sua_api_key
-BQ_PROJECT=seu_projeto_gcp
-BQ_DATASET=weather_dataset
-```
-
-### 3. Instale as dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Suba os containers
-
-```bash
-docker compose up -d
-```
-
-### 5. Acesse o Airflow
-
-```
-http://localhost:8080
-Usuário: admin
-Senha: admin
-```
-
-### 6. Ative a DAG `weather_pipeline`
-
----
+O Airflow agenda e orquestra todo esse fluxo diariamente.
 
 ## 📈 Dados Coletados
 
