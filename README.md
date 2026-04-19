@@ -191,4 +191,3 @@ Senha: admin
 **Carol Czeder**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-carolineczeder-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carolineczeder/)
-[![GitHub](https://img.shields.io/badge/GitHub-carolczeder-181717?style=flat&logo=github&logoColor=white)](https://github.com/carolczeder)
