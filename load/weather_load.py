@@ -20,13 +20,12 @@ logger = logging.getLogger(__name__)
 
 def conectar_postgres():
     return psycopg2.connect(
-        host="localhost",
+        host="postgres",
         port="5432",
         database="weather_db",
         user=os.getenv("POSTGRES_USER", "airflow"),
         password=os.getenv("POSTGRES_PASSWORD", "airflow")
     )
-
 
 def conectar_bigquery():
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "docker/gcp-credentials.json"
