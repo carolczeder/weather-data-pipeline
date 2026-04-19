@@ -1,0 +1,13 @@
+{
+    "cidade": "Uberlândia",
+    "pais": "BR",
+    "temperatura": 25.45,
+    "sensacao_termica": 25.54,
+    "temperatura_min": 25.45,
+    "temperatura_max": 25.45,
+    "umidade": 57,
+    "pressao": 1013,
+    "velocidade_vento": 1.14,
+    "descricao": "nublado",
+    "data_hora": "2026-04-19 01:13:45"
+}

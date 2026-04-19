@@ -2,12 +2,12 @@
     "cidade": "Rio de Janeiro",
     "pais": "BR",
     "temperatura": 24.18,
-    "sensacao_termica": 24.98,
+    "sensacao_termica": 25.06,
     "temperatura_min": 24.18,
     "temperatura_max": 24.18,
-    "umidade": 89,
-    "pressao": 1011,
-    "velocidade_vento": 2.16,
-    "descricao": "nublado",
+    "umidade": 92,
+    "pressao": 1008,
+    "velocidade_vento": 1.15,
+    "descricao": "céu limpo",
     "data_hora": "2026-04-19 01:13:45"
 }

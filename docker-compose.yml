@@ -13,6 +13,13 @@ x-airflow-common: &airflow-common
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
+    - ./extract:/opt/airflow/extract
+    - ./transform:/opt/airflow/transform
+    - ./load:/opt/airflow/load
+    - ./data:/opt/airflow/data
+    - ./docker/gcp-credentials.json:/opt/airflow/docker/gcp-credentials.json
+    - ./.env.dev:/opt/airflow/.env.dev
+    - ./.env.prod:/opt/airflow/.env.prod
   depends_on:
     - postgres
     - redis

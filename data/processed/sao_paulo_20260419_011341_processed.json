@@ -1,0 +1,13 @@
+{
+    "cidade": "São Paulo",
+    "pais": "BR",
+    "temperatura": 21.01,
+    "sensacao_termica": 21.36,
+    "temperatura_min": 21.01,
+    "temperatura_max": 21.01,
+    "umidade": 84,
+    "pressao": 1013,
+    "velocidade_vento": 0.75,
+    "descricao": "céu limpo",
+    "data_hora": "2026-04-19 01:13:45"
+}
