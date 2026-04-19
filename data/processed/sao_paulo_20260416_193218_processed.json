@@ -1,0 +1,13 @@
+{
+    "cidade": "São Paulo",
+    "pais": "BR",
+    "temperatura": 21.72,
+    "sensacao_termica": 22.09,
+    "temperatura_min": 21.72,
+    "temperatura_max": 21.72,
+    "umidade": 82,
+    "pressao": 1014,
+    "velocidade_vento": 2.54,
+    "descricao": "nublado",
+    "data_hora": "2026-04-18 20:03:24"
+}

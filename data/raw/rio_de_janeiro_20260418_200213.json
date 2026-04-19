@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": -43.2075,
+        "lat": -22.9028
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "nublado",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 24.68,
+        "feels_like": 25.21,
+        "temp_min": 24.68,
+        "temp_max": 24.68,
+        "pressure": 1008,
+        "humidity": 77,
+        "sea_level": 1008,
+        "grnd_level": 1010
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.3,
+        "deg": 251,
+        "gust": 3.44
+    },
+    "clouds": {
+        "all": 54
+    },
+    "dt": 1776553142,
+    "sys": {
+        "country": "BR",
+        "sunrise": 1776503211,
+        "sunset": 1776544625
+    },
+    "timezone": -10800,
+    "id": 3451190,
+    "name": "Rio de Janeiro",
+    "cod": 200
+}

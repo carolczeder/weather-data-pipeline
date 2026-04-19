@@ -1,0 +1,13 @@
+{
+    "cidade": "Salvador",
+    "pais": "BR",
+    "temperatura": 26.95,
+    "sensacao_termica": 29.1,
+    "temperatura_min": 26.95,
+    "temperatura_max": 26.95,
+    "umidade": 74,
+    "pressao": 1010,
+    "velocidade_vento": 7.6,
+    "descricao": "céu limpo",
+    "data_hora": "2026-04-18 20:03:24"
+}
