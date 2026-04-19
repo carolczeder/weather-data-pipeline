@@ -1,0 +1,13 @@
+{
+    "cidade": "Brasília",
+    "pais": "BR",
+    "temperatura": 23.22,
+    "sensacao_termica": 23.22,
+    "temperatura_min": 23.22,
+    "temperatura_max": 23.22,
+    "umidade": 62,
+    "pressao": 1016,
+    "velocidade_vento": 1.26,
+    "descricao": "nublado",
+    "data_hora": "2026-04-19 01:13:45"
+}
